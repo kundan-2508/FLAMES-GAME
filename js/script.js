@@ -2,8 +2,8 @@ function calc()
 {
 	var fname = document.getElementById('yname').value;
 	var sname = document.getElementById('pname').value;
-	fname.trim();
-	sname.trim();
+	fname = fname.trim();
+	sname = sname.trim();
     if(fname=='' && sname=='')
     {
         document.getElementById('yname').style.border = '2px solid red';
