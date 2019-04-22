@@ -72,9 +72,10 @@ function calc()
 
 function getFlames(fname,sname)
 {
-    var fname = (fname.replace(" ", "")).toUpperCase();
-    var sname = (sname.replace(" ", "")).toUpperCase();
-
+//     var fname = (fname.replace(" ", "")).toUpperCase();
+//     var sname = (sname.replace(" ", "")).toUpperCase();
+    var fname = (fname.replace(/ /g, '')).toUpperCase();
+    var sname = (sname.replace(/ /g, '')).toUpperCase();
     // Erasing common character
 
     for (var i = 0; i < fname.length; i++) 
