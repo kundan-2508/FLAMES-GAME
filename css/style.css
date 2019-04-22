@@ -1,0 +1,39 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800);
+
+body 
+{
+	margin-top: 12%;
+	overflow-x: hidden;
+	font-family: "Open Sans", sans-serif;
+	//font-weight: 300;
+	color: #fff;
+	//background: #032429;
+}
+.form-control
+{
+	background-color: #efefef;
+	color: #377D6A;
+	border-radius: 0;
+	padding: 10px 0 10px 15px;
+	font-family: "Open Sans", sans;
+	font-weight: bold;
+	outline: 0;
+	transition: all .3s ease-in-out;
+	padding: 10px 15px;
+}
+.btn
+{
+	border-radius: 0;
+	background-color: #377D6A;
+}
+#msg
+{
+	font-size: 35px;
+}
+.footer
+{
+	color: #000;
+	text-align: center;
+	margin-top: 12%;
+}
